@@ -1,6 +1,6 @@
 #WAP to take 10 inputs from user and print the largest,smallest,total,average(Total/2) out of it
 print('WAP to take 10 inputs from user and print the largest,smallest,total,average(Total/2) out of it')
-c,b,Total=5,0,0
+c,b,Total=99999999,0,0
 for i in range(10):
  a=int(input('Enter a New No'))
  if(a>b):
