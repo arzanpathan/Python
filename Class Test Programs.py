@@ -20,7 +20,6 @@ l1=[7,6,4]
 l2=[2,3,5]
 output = {7:4,6:9,5:16}
 '''
-l1=[7,6,4]
-l2=[2,3,5]
+l1,l2=[7,6,4],[2,3,5]
 Lamda_Dict={x:y for x,y in map((lambda a,b:(a,b**2) if a>b else (b,a**2)),l1,l2)}
 print('Dict With Key and Square as Value: ',Lamda_Dict)
